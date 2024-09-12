@@ -1,4 +1,4 @@
-#📝 ToDo Web Page
+📝 ToDo Web Page
 
 This is a simple and interactive ToDo Web Application 🗂️ that allows users to add and delete tasks in a clean and minimalistic user interface. The tasks are saved using the Local Storage method of JavaScript, ensuring that the tasks persist even when the page is refreshed or the browser is closed. This project is ideal for practicing fundamental web development concepts like HTML, CSS, and JavaScript.
 
