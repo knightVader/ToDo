@@ -40,7 +40,8 @@ const addtoLocalStorage=(content)=>{
 
 const addTodo=()=>{
     let todocontent=todo.value;
-    todo.value="";
+    if(todocontent !== ""){
+        todo.value="";
     addtoLocalStorage(todocontent);
 
     let main=document.createElement("div")
@@ -57,6 +58,7 @@ const addTodo=()=>{
     main.appendChild(btn)
     btn.innerText="Delete"
     btn.classList.add("delete")
+    }
 }
 
 document.querySelector("body").addEventListener("click", (e)=>{
